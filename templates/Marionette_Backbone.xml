@@ -1,0 +1,56 @@
+<templateSet group="Marionette/Backbone">
+  <template name="it" value="Marionette.ItemView.extend({&#10;    template: require('./template/$TPL$'),&#10;    initialize: function(options) {&#10;        $END$&#10;    }&#10;})" description="ItemView" toReformat="false" toShortenFQNames="true">
+    <variable name="TPL" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
+  <template name="cv" value="Marionette.CollectionView.extend({&#10;    childView: $CHILD_VIEW$,&#10;    tagName: &quot;$TAG_NAME$&quot;,&#10;    initialize: function(options) {&#10;        $END$&#10;    }&#10;})" description="CollectionView" toReformat="false" toShortenFQNames="true">
+    <variable name="CHILD_VIEW" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="TAG_NAME" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
+  <template name="comp" value="Marionette.CompositeView.extend({&#10;    template: require('./template/$TPL$'),&#10;    childView: $CHILD_VIEW$,&#10;    childViewContainer: &quot;$CONTAINER$&quot;,&#10;    initialize: function(options) {&#10;        $END$&#10;    }&#10;})" description="CompositeView" toReformat="false" toShortenFQNames="true" deactivated="true">
+    <variable name="TPL" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="CHILD_VIEW" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="CONTAINER" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
+  <template name="lay" value="Marionette.LayoutView.extend({&#10;    template: require('./template/$TPL$'),&#10;    regions: {&#10;        $END$&#10;    },&#10;    initialize: function(options) {&#10;    &#10;    }&#10;})" description="LayoutView" toReformat="false" toShortenFQNames="true">
+    <variable name="TPL" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
+  <template name="temp" value="templateHelpers: function() {&#10;    return {&#10;        $END$&#10;    }&#10;}" description="Template helpers" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
+  <template name="init" value="initialize: function(options) {&#10;    $END$&#10;}" description="Initialize" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
+  <template name="req" value="require('$REQ$')" description="Require" toReformat="false" toShortenFQNames="true">
+    <variable name="REQ" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
+  <template name="coll" value="Backbone.Collection.extend({&#10;    model: require('./$MODEL$')&#10;})" description="Collection" toReformat="false" toShortenFQNames="true">
+    <variable name="MODEL" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
+  <template name="model" value="Backbone.Model.extend({&#10;    defaults: {&#10;        $END$&#10;    }&#10;});" description="Model" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
+</templateSet>

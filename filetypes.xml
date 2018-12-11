@@ -1,0 +1,51 @@
+<application>
+  <component name="FileTypeManager" version="17">
+    <ignoreFiles list="*.hprof;*.pyc;*.pyo;*.rbc;*~;.DS_Store;.git;.hg;.svn;CVS;RCS;SCCS;__pycache__;_svn;rcs;vssver.scc;vssver2.scc;" />
+    <extensionMap>
+      <mapping pattern="Dockerfile.*" type="Dockerfile" />
+      <mapping pattern="Jenkinsfile-poc" type="Groovy" />
+      <mapping pattern="Jenkinsfile-release" type="Groovy" />
+      <mapping ext="hst" type="HTML" />
+      <mapping ext="mdx" type="Markdown" />
+      <mapping pattern="Jenkinsfile" type="PLAIN_TEXT" />
+      <mapping pattern="Jenkinsfile-staging" type="PLAIN_TEXT" />
+      <mapping pattern=".env" type="PLAIN_TEXT" />
+      <mapping pattern="Jenkinsfile-production" type="PLAIN_TEXT" />
+      <mapping pattern=".config" type="PLAIN_TEXT" />
+      <mapping pattern="prometheus" type="PLAIN_TEXT" />
+      <mapping pattern=".keep" type="PLAIN_TEXT" />
+      <mapping pattern="commands" type="PLAIN_TEXT" />
+      <mapping pattern=".dockerignore" type="PLAIN_TEXT" />
+      <mapping pattern="custom" type="PLAIN_TEXT" />
+      <mapping pattern="LICENSE" type="PLAIN_TEXT" />
+      <mapping pattern=".env.sample" type="PLAIN_TEXT" />
+      <mapping pattern=".editorconfig" type="PLAIN_TEXT" />
+      <mapping pattern="test" type="PLAIN_TEXT" />
+      <mapping pattern=".prettierrc" type="PLAIN_TEXT" />
+      <mapping pattern="env" type="PLAIN_TEXT" />
+      <mapping ext="worker-glpk" type="PLAIN_TEXT" />
+      <mapping ext="mp3" type="PLAIN_TEXT" />
+      <mapping ext="ovpn" type="PLAIN_TEXT" />
+      <mapping ext="bak" type="PLAIN_TEXT" />
+      <mapping ext="solution" type="PLAIN_TEXT" />
+      <mapping ext="mps" type="PLAIN_TEXT" />
+      <mapping ext="cplex" type="PLAIN_TEXT" />
+      <mapping ext="rule" type="PLAIN_TEXT" />
+      <mapping ext="pattern" type="PLAIN_TEXT" />
+      <mapping ext="example" type="PLAIN_TEXT" />
+      <mapping ext="problem" type="PLAIN_TEXT" />
+      <mapping ext="tsp" type="PLAIN_TEXT" />
+      <mapping ext="monitoring" type="PLAIN_TEXT" />
+      <mapping ext="tpl" type="PLAIN_TEXT" />
+      <mapping ext="lp" type="PLAIN_TEXT" />
+      <mapping ext="prob" type="PLAIN_TEXT" />
+      <mapping ext="env" type="PLAIN_TEXT" />
+      <mapping ext="sqlite-journal" type="PLAIN_TEXT" />
+      <mapping ext="pem" type="PLAIN_TEXT" />
+      <mapping ext="toml" type="PLAIN_TEXT" />
+      <mapping ext="peg" type="PLAIN_TEXT" />
+      <mapping ext="ejs" type="PLAIN_TEXT" />
+      <mapping ext="mjml" type="XHTML" />
+    </extensionMap>
+  </component>
+</application>
