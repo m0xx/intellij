@@ -1,6 +1,15 @@
 <application>
+  <component name="GitRememberedInputs">
+    <option name="visitedUrls">
+      <list>
+        <UrlAndUserName>
+          <option name="url" value="http://bitbucket.org" />
+          <option name="userName" value="m0xx" />
+        </UrlAndUserName>
+      </list>
+    </option>
+  </component>
   <component name="Vcs.Log.App.Settings">
-    <option name="MIGRATED" value="true" />
     <option name="SHOW_CHANGES_FROM_PARENTS" value="true" />
   </component>
   <component name="VcsApplicationSettings">
