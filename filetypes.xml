@@ -10,7 +10,6 @@
       <mapping ext="mdx" type="Markdown" />
       <mapping pattern="Jenkinsfile" type="PLAIN_TEXT" />
       <mapping pattern=".env" type="PLAIN_TEXT" />
-      <mapping pattern=".env.sample" type="PLAIN_TEXT" />
       <mapping pattern="Jenkinsfile-production" type="PLAIN_TEXT" />
       <mapping pattern=".config" type="PLAIN_TEXT" />
       <mapping pattern="prometheus" type="PLAIN_TEXT" />
@@ -21,6 +20,7 @@
       <mapping pattern="custom" type="PLAIN_TEXT" />
       <mapping pattern="LICENSE" type="PLAIN_TEXT" />
       <mapping pattern=".keep" type="PLAIN_TEXT" />
+      <mapping pattern=".env.sample" type="PLAIN_TEXT" />
       <mapping pattern=".editorconfig" type="PLAIN_TEXT" />
       <mapping pattern="DockerfileJava8" type="PLAIN_TEXT" />
       <mapping pattern="test" type="PLAIN_TEXT" />
@@ -29,6 +29,7 @@
       <mapping ext="worker-glpk" type="PLAIN_TEXT" />
       <mapping ext="mp3" type="PLAIN_TEXT" />
       <mapping ext="ovpn" type="PLAIN_TEXT" />
+      <mapping ext="conf" type="PLAIN_TEXT" />
       <mapping ext="bak" type="PLAIN_TEXT" />
       <mapping ext="solution" type="PLAIN_TEXT" />
       <mapping ext="mps" type="PLAIN_TEXT" />
