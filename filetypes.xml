@@ -8,9 +8,9 @@
       <mapping pattern="Jenkinsfile-release" type="Groovy" />
       <mapping ext="hst" type="HTML" />
       <mapping ext="mdx" type="Markdown" />
+      <mapping pattern="known_hosts" type="PLAIN_TEXT" />
       <mapping pattern="Jenkinsfile" type="PLAIN_TEXT" />
       <mapping pattern=".env" type="PLAIN_TEXT" />
-      <mapping pattern=".env.sample" type="PLAIN_TEXT" />
       <mapping pattern="Jenkinsfile-production" type="PLAIN_TEXT" />
       <mapping pattern=".config" type="PLAIN_TEXT" />
       <mapping pattern="prometheus" type="PLAIN_TEXT" />
@@ -22,6 +22,7 @@
       <mapping pattern="LICENSE" type="PLAIN_TEXT" />
       <mapping pattern="transformer-http-request" type="PLAIN_TEXT" />
       <mapping pattern=".keep" type="PLAIN_TEXT" />
+      <mapping pattern=".env.sample" type="PLAIN_TEXT" />
       <mapping pattern=".editorconfig" type="PLAIN_TEXT" />
       <mapping pattern="DockerfileJava8" type="PLAIN_TEXT" />
       <mapping pattern="test" type="PLAIN_TEXT" />
